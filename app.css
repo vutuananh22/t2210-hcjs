@@ -1,0 +1,16 @@
+h1{
+    color:#ff0000;
+}
+p{
+    color:#008000;          /* màu */
+    font-size: 16px;         /*chữ 16mpx */
+    font-family: sans-serif;  /* loại phông */
+    font-weight: 300;         /* độ đậm nhạt*/
+    line-height: 50px;    /* khoảng cách dòng */
+    text-decoration: none;  /*line-through overline underline gạch kiểu chữ */
+    text-align: justify;/* left right centre justify căn lề */
+    text-transform: none;/* uppercase lowercase  capitalize(tên người) kiểu in hoa in thường*/
+    font-style: italic;/* italic in nghiêng */
+    background-color: deepskyblue; /* màu nền background-color */
+    width: 500px;/* chiều rộng của khối chữ */
+}
