@@ -1,0 +1,22 @@
+h1{
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+}
+span{
+    color: aliceblue;
+    background: red;
+}
+body{
+    text-align: justify;
+    width: 650px;
+    margin: 6px auto ;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+h5{
+    text-align: center;
+}
