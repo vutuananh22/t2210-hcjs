@@ -11,6 +11,6 @@ p{
     text-align: justify;/* left right centre justify căn lề */
     text-transform: none;/* uppercase lowercase  capitalize(tên người) kiểu in hoa in thường*/
     font-style: italic;/* italic in nghiêng */
-    background-color: deepskyblue; /* màu nền background-color */
+    background-color: red; /* màu nền background-color */
     width: 500px;/* chiều rộng của khối chữ */
 }
