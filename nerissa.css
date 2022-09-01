@@ -1,0 +1,15 @@
+body{
+    text-align: justify;
+    width: 650px;
+    margin: 6px auto ;
+}
+div {
+    font-family: sans-serif;
+    float: left;
+    margin: 10px 15px;
+    box-sizing: border-box;
+}
+h5{
+    text-align: left;
+}
+
