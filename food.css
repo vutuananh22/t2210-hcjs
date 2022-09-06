@@ -18,6 +18,7 @@ li{
     list-style: none;
 }
 .section{
+    background-color: whitesmoke;
     height: 50px;
     float: left;
     width: 100%;
@@ -80,6 +81,7 @@ div{
     border-radius: 6px;
     border: 2px orange;
     box-sizing: content-box;
+    background-color: wheat;
 
 }
 .box{
@@ -89,4 +91,5 @@ div{
     padding: 8px 15px;
     box-sizing: content-box;
     border: 2px orange;
+    background-color: wheat;
 }
