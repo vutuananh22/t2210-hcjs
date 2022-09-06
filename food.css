@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: whitesmoke;
+    background-color: beige;
     font-size: 15px;
     font-family: Roboto, sans-serif;
     text-align: left;
@@ -29,7 +29,7 @@ li{
     width: 100%;
     float: none;
     margin: 0 auto;
-    box-shadow: orange;
+    box-shadow: honeydew;
 }
 .Restaurant{
     float: left;
@@ -68,7 +68,7 @@ nav li{
 h1{
     float: left;
     width: auto;
-    border: wheat;
+    border: orange;
     color: orange;
 }
 img{
@@ -79,7 +79,7 @@ div{
     float: left;
     margin: 5px 5px;
     border-radius: 6px;
-    border: 2px orange;
+    border: 2px white;
     box-sizing: content-box;
     background-color: wheat;
 
@@ -90,6 +90,6 @@ div{
     margin: 10px 15px;
     padding: 8px 15px;
     box-sizing: content-box;
-    border: 2px orange;
-    background-color: wheat;
+    border: 2px darkgray;
+    background-color: ghostwhite;
 }
