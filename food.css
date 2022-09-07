@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: beige;
+    background-color: whitesmoke;
     font-size: 15px;
     font-family: Roboto, sans-serif;
     text-align: left;
@@ -85,11 +85,17 @@ div{
 
 }
 .box{
-    width: calc(30% - 30px);
+    width: calc(30% - 40px);
     float: left;
     margin: 10px 15px;
     padding: 8px 15px;
     box-sizing: content-box;
     border: 2px darkgray;
     background-color: ghostwhite;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+h3{
+    color: darkorange;
 }
