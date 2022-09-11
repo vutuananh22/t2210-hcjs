@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.35;
+}
+.content{
+    background-color: green;
+    color: white;
+    width: 500px;
+    text-align: left;
+}
+.container{
+    text-align: left;
+    width: 100%;
+}
+section{
+   text-align: center;
+    width: 50%;
+}
+div p{
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+
+
