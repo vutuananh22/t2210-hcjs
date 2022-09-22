@@ -1,0 +1,34 @@
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2.35;
+    box-sizing: content-box;
+    background-color: snow;
+}
+.img {
+    width: 400px;
+}
+script{
+    padding-right: 20px;
+    padding-left: 30px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    box-shadow: honeydew;
+}
+.box {
+    width: calc(30% - 40px);
+    float: left;
+    margin: 10px 15px;
+    padding: 8px 15px;
+    box-sizing: content-box;
+    border: 2px darkgray;
+    background-color: ghostwhite;
+}

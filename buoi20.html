@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giao DIện food</title>
+    <link rel="stylesheet" href="/giaodienfood.css">
+</head>
+<body>
+
+<ul id="success">
+</ul>
+    <div class="box">
+<script type="text/javascript">
+
+    function getsuccess(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onload =function (){
+            var data = JSON.parse(this.responseText);
+            var fd = data.data;
+            for(var i=0; i<fd.length;i++){
+                var li_html =`<li><img  src="${fd[i].image}"/>${fd[i].name}</li>`;
+                var success = document.getElementById("success");
+                success.innerHTML += li_html;
+            }
+        }
+        var url = "https://foodgroup.herokuapp.com/api/today-special";
+        xhttp.open("GET",url,true);
+        xhttp.send();
+    }
+    getsuccess();
+</script>
+    </div>
+</body>
+</html>
