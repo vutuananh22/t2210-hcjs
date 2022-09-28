@@ -1,9 +1,8 @@
 body, .signin {
-    background-color: silver;
+    background-color: green;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 .login {
@@ -12,7 +11,7 @@ body, .signin {
     width: 405px;
     margin: auto;
     padding: 60px 60px;
-    background: powderblue;
+    background: peru;
     background-size: cover;
     box-shadow: 0px 30px 60px -5px #000;
 }
@@ -22,7 +21,7 @@ form {
 }
 
 .nonactive {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.10);
 }
 
 h2 {
@@ -37,6 +36,7 @@ h2 {
 
 h2:first-child {
     padding-left: 0px;
+
 }
 
 span {
@@ -47,7 +47,7 @@ span {
     position: relative;
     top: -65px;
     transition: all 0.5s ease-in-out;
-    color: black;
+    color: white;
 }
 
 .text {
@@ -97,7 +97,6 @@ span,
     box-shadow: 0px 4px 35px -5px #4082f5;
     cursor: pointer;
 }
-
 a {
     display: block;
     top: 40px;
