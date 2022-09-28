@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: paleturquoise;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.35;
+}
+div{
+    width: 10%;
+}
+.content{
+    text-align: center;
+    width: 10%;
+    color: blueviolet;
+}
+form .login{
+    width: auto;
+    height: 10px;
+    padding: 20px;
+}
+input.form{
+    background-color: lightcoral;
+}
